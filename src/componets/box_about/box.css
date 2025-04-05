@@ -1,0 +1,18 @@
+.box{
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #f5f4fb;
+}
+.box h5{
+    font-weight: 700;
+    font-size: 34px;
+    display: block;
+    color: #263b5e;
+    margin-bottom: 10px;
+}
+.box p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #a5aab8;
+}

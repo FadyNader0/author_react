@@ -1,0 +1,56 @@
+.navbar{
+    box-shadow: #0000003b 0px 0px 12px;
+    background: #ffffffd4;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container-md button{
+    border: none;
+}
+.navbar .container-md button:focus{
+    border: none;
+}
+
+.navbar .container-md button span{
+    font-size: 22px;
+}
+
+.navbar .container-md .navbar-brand {
+    font-size: 26px;
+    font-weight: 900;
+    padding: 16px 0;
+}
+.navbar .container-md .navbar-brand span{
+    color: #17b978;
+}
+.navbar .container-md .collapse .nav-item a {
+    position: relative;
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.navbar .container-md .collapse .nav-item a::before{
+    content: "";
+    position: absolute;
+    left: 12%;
+    bottom: 3px;
+    width: 80%;
+    height: 1.5px;
+    background-color: #17b978;
+    transform: scaleX(0); 
+    transform-origin: center;
+    transition: 0.3s;
+}
+.navbar .container-md .collapse .nav-item a:hover::before,
+.navbar .container-md .collapse .nav-item a.active::before {
+    transform: scaleX(1);
+}
+.navbar .container-md .collapse .nav-item a:hover,
+.navbar .container-md .collapse .nav-item a.active {
+    background-color: transparent;
+    color: #17b978;
+}

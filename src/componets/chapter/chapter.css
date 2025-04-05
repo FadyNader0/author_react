@@ -1,0 +1,60 @@
+.chapter{
+    position: relative;
+    top: 600px;
+    background-color: white;
+}
+.chapter .container-md .tittle h3{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #051441;
+}
+.chapter .container-md .row .d-flex{
+    font-size: 17px;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 700;
+    position: sticky;
+    top: 250px;
+}
+.chapter .container-md .row .d-flex .rounded{
+    position: relative;
+    transition: 0.5s;
+}
+.chapter .container-md .row .d-flex .rounded::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 15px;
+    width: 30px;
+    height: 2px;
+    background-color: #17b978;
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: 0.5s;
+}
+.chapter .container-md .row .d-flex .rounded.active::before {
+    transform: scaleX(1);
+}
+.chapter .container-md .row .d-flex .rounded.active{
+    color: #17b978;
+    left: 20px;
+    transition: 0.5s;
+}
+.chapter .container-md .texts{
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #f5f4fb;
+}
+.chapter .container-md .texts h4{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.chapter .container-md .texts p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #6a7695;
+}

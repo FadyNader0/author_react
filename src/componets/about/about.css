@@ -1,0 +1,28 @@
+.about{
+    position: relative;
+    top: 300px;
+}
+.about .container-md .text{
+    margin-top: 60px;
+}
+.about .container-md .text h3{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 46px; 
+}
+.about .container-md .text h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.about .container-md .text p{
+    margin-bottom: 50px;
+    width: 90%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #6a7695;
+}
+.about .container-md .boxs{
+    margin-top: 140px;
+}
+
