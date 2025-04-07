@@ -1,0 +1,29 @@
+.my_books{
+    position: relative;
+    top: 1400px;
+}
+
+.my_books .container-md{
+    text-align: center;
+}
+.my_books .container-md .tittle{
+    margin-bottom: 80px;
+}
+.my_books .container-md .tittle span{
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+    color: #17b978;
+}
+
+
+
+.my_books .container-md .tittle h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: #051441;
+}
+
+
+

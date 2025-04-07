@@ -1,0 +1,78 @@
+footer{
+    background: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: left;
+    position: relative;
+    top: 1900px;
+    height: 100%;
+}
+footer .container-md h4{
+    margin-bottom: 50px;
+}
+
+footer .container-md .about_f p{
+    width: 100%;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+footer .container-md .about_f i{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 10px 12px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.322);
+
+}
+
+
+
+footer .container-md .links_f a{
+    display: block;
+    color: #aaa;
+    margin-bottom: 20px;
+    
+
+}
+
+footer .container-md .services_f h6{
+    color: #aaa;
+    margin-bottom: 20px;
+
+}
+
+footer .container-md .questions_f .data{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+footer .container-md .questions_f .data a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer .container-md .questions_f .data i{
+    margin-right: 20px;
+}
+footer .container-md .questions_f .data a i{
+    margin-right: 20px;
+}
+
+
+footer .container-md .questions_f .data a:hover,
+footer .container-md .links_f a:hover{
+    color: blue;
+}
+
+
+footer .container-md .end{
+    color: #aaa;
+    padding: 100px 0;
+    text-align: center;
+}

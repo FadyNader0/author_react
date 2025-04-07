@@ -1,0 +1,36 @@
+.box_book{
+    position: relative;
+    text-align: left;
+}
+
+.box_book .text{
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    width: 200px;
+    left: 15px;
+    z-index: -1;
+    
+}
+
+.box_book .text a{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.box_book .text p{
+    color: rgba(255, 255, 255, 0.795);
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.box_book:hover .text{
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.box_book:hover img{
+    filter: brightness(70%);
+    transition: 0.5s;
+}

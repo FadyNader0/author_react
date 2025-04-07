@@ -1,0 +1,103 @@
+.contact{
+    position: relative;
+    top: 1900px;
+}
+
+
+.contact .container-md{
+    text-align: center;
+}
+
+.contact .container-md .tittle h4{
+    font-size: 50px;
+    font-weight: 700;
+    color: #051441;
+    
+}
+
+
+.contact .container-md .tittle p{
+    padding-bottom: 60PX;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #6a7695;
+}
+
+.contact .container-md .cards{
+    background-color: #f5f4fb;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    width: 16rem;
+}
+.contact .container-md .cards i{
+    padding: 40px;
+    border-radius: 50%;
+    background-color: #17b978;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+.contact .container-md .cards .card-body h5{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #051441;
+}
+.contact .container-md .cards .card-body a{
+    color: #17b978;
+}
+
+.contact .container-md .form{
+    margin-top: 60px;
+    text-align: left;
+    background-color: #f5f4fb;
+}
+
+.contact .container-md .form iframe{
+    height: 500px;
+    width: 90%;
+}
+
+.contact .container-md .form .inputs{
+    margin: auto;
+}
+
+.contact .container-md .form input{
+    width: 90%;
+}
+
+.contact .container-md .form .message {
+    padding-bottom: 200px;
+  
+   
+}
+
+.contact .container-md .form .message:focus {
+    border: 1px solid black ;
+    outline: none ;
+    box-shadow: none;
+}
+
+.contact .container-md .form button{
+    background: #17b978;
+    border: none;
+    border: 1px solid #17b978;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+
+@media (max-width: 769px){
+    .contact .container-md .cards{
+        width: 100%;
+    }
+}

@@ -1,0 +1,62 @@
+.services{
+    position: relative;
+    top: 800px;
+}
+
+.services .container-md .tittle span{
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+    color: #17b978;
+}
+.services .container-md .tittle h4{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+
+.services .container-md .card{
+    background-color: #f5f4fb;
+    width: 350px;
+    margin: auto;
+}
+
+.services .container-md .card i{
+    color: #17b978;
+}
+.services .container-md .card h5{
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+.services .container-md .card h5::before{
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    border-bottom: 1.5px solid #17b978;
+    width: 40px;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.services .container-md .card hr{
+    width: 50%;
+    background-color: #17b978;
+    height: 100px;
+    text-align: center;
+}
+.services .container-md .card p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #6a7695;
+}
+
+@media (max-width: 768px){
+    .services .container-md .card{
+        width: 100%;
+    }
+
+}
